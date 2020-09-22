@@ -1,16 +1,32 @@
 .toolbar {
-    background-color: darkred;
+    background-color: crimson;
     color: white;
+    display: flex;
     text-align: center;
     font-size: 27px;
     padding-left: 5px;
 }
 
 .tabbar{
-    background-color: darkred;
+    background-color: crimson;
 }
 
 #carousel{
     width: 350;
     height: 525;
 }
+
+.trailer ons-icon {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    color: #666;
+    background: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
