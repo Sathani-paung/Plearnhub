@@ -1,16 +1,27 @@
 <ons-page id="home">
-    <ons-carousel swipeable auto-scroll id="homemovie">
-        <ons-carousel-item modifier="nodivider" id="Movie1" onclick="openMovieDetails(this.id)">
-          <img src="../image/Jurassic.jpg" width="100%" height="500"/>
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Movie2" onclick="openMovieDetails(this.id)">
-          <img src="../image/parikin.jpg" width="100%" height="500"/>
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Movie3" onclick="openMovieDetails(this.id)">
-          <img src="../image/fast.jpg" width="100%" height="500"/>
-        </ons-carousel-item>
-      </ons-carousel>
-      <div>
-        <h2 style="text-align: center;">Trending Now...</h2>
-      </div>
-</ons-page>
+
+    <ons-navigator swipeable id="myNavigator" page="homemovie.html"></ons-navigator>
+  
+    <template id="homemovie.html">
+  
+      <ons-page id="homemovie">
+  
+        <ons-carousel swipeable auto-scroll id="homemovie">
+          <ons-carousel-item modifier="nodivider" id="Movie1">
+            <img src="../image/Jurassic.jpg" width="100%" height="500"/>
+          </ons-carousel-item>
+          <ons-carousel-item modifier="nodivider" id="Movie2">
+            <img src="../image/parikin.jpg" width="100%" height="500"/>
+          </ons-carousel-item>
+          <ons-carousel-item modifier="nodivider" id="Movie3">
+            <img src="../image/fast.jpg" width="100%" height="500"/>
+          </ons-carousel-item>
+        </ons-carousel>
+        
+        <div>
+          <h2 style="text-align: center;">Trending Now...</h2>
+        </div>
+  
+      </ons-page>
+    </template>
+  </ons-page>
